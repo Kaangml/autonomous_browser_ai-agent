@@ -1,0 +1,18 @@
+[project]
+name = "autonomous-browser-ai-agent-bedrock"
+version = "0.1.0"
+description = "Autonomous browser agent built on Playwright and LLM planning"
+readme = "README.md"
+authors = [
+    { name = "Kaangml", email = "judocukaan52@gmail.com" }
+]
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "playwright>=1.48.0,<2.0.0",
+    "pytest>=8.2.0,<9.0.0",
+    "pytest-asyncio>=0.23.6,<0.24.0"
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

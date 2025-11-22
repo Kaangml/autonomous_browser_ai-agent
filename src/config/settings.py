@@ -8,6 +8,8 @@ class Settings:
     BROWSER_TIMEOUT = 30  # seconds
     BROWSER_HEADLESS = True
     BROWSER_VIEWPORT = {"width": 1920, "height": 1080}
+    BROWSER_USER_AGENT = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36"
+    BROWSER_STEALTH = True
 
     # Agent / LLM settings
     # Supported providers: "langchain", "amazon_bedrock"
