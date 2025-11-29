@@ -12,3 +12,9 @@ test-results/
 .env
 .env.local
 .env.*.local
+
+# Private scripts (personal use, not for GitHub)
+my_scripts/
+my_data/
+*.xlsx
+*.csv
